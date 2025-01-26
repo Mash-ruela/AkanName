@@ -1,0 +1,44 @@
+body{
+    margin: 10px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('Pasted image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aqua;
+}
+.container{
+    max-width: 600px;
+    margin: 50px;
+    background-color: rgb(77, 137, 248);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 12px;
+}
+.form-group{
+    margin-bottom: 12px;
+}
+label{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 162, 255);
+}
+input[type="number"],
+input[type="radio"]{
+    font-size: 14px;
+    padding: 4px;
+}
+button{
+    background-color: rgb(132, 198, 255);
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.8s ease;
+}
+button:hover{
+    background-color: rgb(6, 75, 155);
+}
